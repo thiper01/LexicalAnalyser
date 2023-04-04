@@ -1,0 +1,71 @@
+linha 1: comentario
+linha 3: program
+linha 3: identificador - atributo: exemplo
+linha 3: ponto e virgula
+linha 4: number
+linha 4: identificador - atributo: num
+linha 4: virgula
+linha 4: identificador - atributo: maior
+linha 4: virgula
+linha 4: identificador - atributo: cont
+linha 4: virgula
+linha 4: identificador - atributo: qtd
+linha 4: ponto e virgula
+linha 5: begin
+linha 6: read
+linha 6: abre parenteses
+linha 6: identificador - atributo: qtd
+linha 6: fecha parenteses
+linha 6: ponto e virgula
+linha 7: set
+linha 7: identificador - atributo: cont
+linha 7: to
+linha 7: numero - atributo 0
+linha 7: ponto e virgula
+linha 8: set
+linha 8: identificador - atributo: maior
+linha 8: to
+linha 8: numero - atributo 0
+linha 8: ponto e virgula
+linha 8: comentario
+linha 9: while
+linha 9: abre parenteses
+linha 9: identificador - atributo: cont
+linha 9: OP_RELACIONAL - atributo(enum) menor: 24
+linha 9: identificador - atributo: qtd
+linha 9: fecha parenteses
+linha 9: do
+linha 10: begin
+linha 11: read
+linha 11: abre parenteses
+linha 11: identificador - atributo: num
+linha 11: fecha parenteses
+linha 11: ponto e virgula
+linha 12: if
+linha 12: abre parenteses
+linha 12: identificador - atributo: num
+linha 12: OP_RELACIONAL - atributo(enum) maior: 22
+linha 12: identificador - atributo: maior
+linha 12: fecha parenteses
+linha 12: then
+linha 13: set
+linha 13: identificador - atributo: maior
+linha 13: to
+linha 13: identificador - atributo: num
+linha 13: ponto e virgula
+linha 14: set
+linha 14: identificador - atributo: cont
+linha 14: to
+linha 14: identificador - atributo: cont
+linha 14: adicao
+linha 14: numero - atributo 1
+linha 15: end
+linha 15: ponto e virgula
+linha 16: write
+linha 16: abre parenteses
+linha 16: identificador - atributo: maior
+linha 16: fecha parenteses
+linha 16: comentario
+linha 17: end
+linha 17: ponto
+fim de analise lexica
